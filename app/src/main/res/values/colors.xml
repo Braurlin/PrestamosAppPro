@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F5499</color>
+    <color name="colorPrimaryDark">#003972</color>
+    <color name="colorAccent">#2E8DDB</color>
+    <color name="colorButton">#FF6700</color>
+    <color name="colorButton2">#2E8DDB</color>
+    <color name="fondoPrincipal">#FAFAFA</color>
+    <color name="texto">#000000</color>
+    <color name="color1">#000000</color>
+    <color name="color01">#FFF</color>
+    <color name="texto_oscuro">#FFF</color>
+    <color name="texto1">#FFF</color>
+    <color name="fondoTablasImpares">#EBEBEB</color>
+    <color name="fondoTablasImpares1">#D3D3D3</color>
+</resources>

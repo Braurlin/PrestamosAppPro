@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Calculadora de Préstamos</string>
+    <string name="nombre">Prestamos</string>
+    <string name="bCaluclar">Calcular Prestamo</string>
+    <string name="bAcerca">Acerca</string>
+    <string name="bSalir">Salir</string>
+    <string name="nombre_app">Braurlin Luciano</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintMonto">Monto</string>
+    <string name="hinyCuota">Cuotas</string>
+    <string name="hintTasa">Tasa</string>
+    <string name="hintFecha">Fecha</string>
+    <string name="GRACIAS">Gracias</string>
+    <string name="detalleact">Un activo coloca dinero en tu bolsillo. Un pasivo saca dinero de tu bolsillo.</string>
+    <string name="detalleact2">¡Realiza tus consultas con facilidad!</string>
+    <string name="confirm">Confirmar Fecha</string>
+</resources>

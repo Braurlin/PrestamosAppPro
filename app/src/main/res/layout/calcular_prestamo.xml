@@ -1,0 +1,97 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/fondoPrincipal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:hint="@string/hintNombre"
+                android:inputType="text"
+                android:paddingTop="30dp"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/etMonto"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hintMonto"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etCuotas"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hinyCuota"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etTasa"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hintTasa"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <Button
+                android:id="@+id/bFecha"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/colorButton2"
+                android:padding="5dp"
+                android:text="Elegir Fecha"
+                android:textColor="@color/texto1" />
+
+            <EditText
+                android:id="@+id/etFecha"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:enabled="false"
+                android:hint="@string/hintFecha"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/bCalcular"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/colorButton"
+                android:padding="5dp"
+                android:text="Desglozar pagos"
+                android:textColor="@color/texto1" />
+
+            <Button
+                android:id="@+id/bLimpiar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/colorButton2"
+                android:padding="5dp"
+                android:text="Limpiar"
+                android:textColor="@color/texto1" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

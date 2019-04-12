@@ -1,0 +1,55 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/acerca"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/miface"
+        android:padding="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_app"
+        android:textColor="@color/texto_oscuro"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/texto_oscuro"
+        android:text="Calculadora de préstamos."
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/texto_oscuro"
+        android:text="Braurlin Luciano © Copyright 2019 - All Rights Reserved"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/texto_oscuro"
+        android:textAlignment="center"
+        android:text="La funcionalidad de esta aplicación es realizar cálculos de cuotas de préstamos."/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/GRACIAS"
+        android:textColor="@color/fondoPrincipal"
+        android:drawableStart="@drawable/ic_thumb_up_black_24dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/volver"/>
+</LinearLayout>
